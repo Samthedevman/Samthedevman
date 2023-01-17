@@ -1,3 +1,5 @@
+/* HEADINGS */
+
 h1 {
   color: white;
   font-size: 5vmax;
@@ -6,10 +8,60 @@ h1 {
   margin: auto;
 }
 
+.heading {
+  margin-bottom: 10px;
+}
+
+.blogPostHeading {
+  text-align: center;
+}
+
+.blogPostHeading > h2 {
+  font-size: 2.5vmax !important;
+}
+
 h2 {
   font-family: 'Shadows Into Light', cursive;
   color: white;
   font-size: 2vmax;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.post {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  border: 2px solid white;
+  margin: auto;
+  align-items: center;
+  width: 80vw;
+  border-radius: 50px;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 1vmax;
+  /* margin-left: 30px; */
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+
+.concepts {
+  margin-bottom: 40px !important;
+  text-align: center;
+  border: 2px solid white;
+  margin: auto;
+  align-items: center;
+  width: 80vw;
+  border-radius: 50px;
+}
+
+/* TAGS */
+
+p {
+  font-size: 1vmax;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 ul {
@@ -37,33 +89,7 @@ a:hover {
   color: black;
 }
 
-html {
-  background: url(../blogcontent/background\ 4.avif) no-repeat center center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.heading {
-  margin-bottom: 10px;
-}
-
-.concepts {
-  margin-bottom: 40px !important;
-  text-align: center;
-  border: 2px solid white;
-  margin: auto;
-  align-items: center;
-  width: 80vw;
-  border-radius: 50px;
-}
-
-.photo {
-  text-align: center;
-  margin-top: 30px;
-}
+/* NAVBAR */
 
 .nav {
   font-family: 'Shadows Into Light', cursive;
@@ -76,27 +102,23 @@ html {
   margin-bottom: 40px;
 }
 
-.aboutMe {
-  font-family: 'Shadows Into Light', cursive;
-  text-align: center;
-  border: 2px solid white;
-  margin: auto;
-  align-items: center;
-  width: 80vw;
-  border-radius: 50px;
-  color: white;
-  margin-bottom: 40px;
-  font-size: 1vmax;
+/* IMAGES */
+
+html {
+  background: url(../blogcontent/background\ 4.avif) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-img {
+.photo2 > img {
   width: 10vmax;
-  max-width: 100%;
-  height: auto;
   border: 2px solid white;
   border-radius: 50%;
   margin-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .photo > img {
@@ -108,10 +130,12 @@ img {
   margin-top: 0;
 }
 
-p {
-  padding-left: 30px;
-  padding-right: 30px;
+.photo {
+  text-align: center;
+  margin-top: 30px;
 }
+
+/* MEDIA QUERIES */
 
 @media all and (max-width: 1200px) {
   li {
@@ -120,13 +144,13 @@ p {
 }
 
 @media all and (max-width: 768px) {
-  img {
+  .photo2 > img {
     width: 20vmax;
   }
 }
 
-@media all and (max-width: 325px) {
-  h1 {
-    font-size: 95vmin !important;
+@media all and (max-width: 320px) {
+  p {
+    font-size: 1.5vmax;
   }
 }
