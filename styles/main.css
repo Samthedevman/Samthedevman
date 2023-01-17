@@ -6,12 +6,9 @@ h1 {
   margin: auto;
 }
 
-/* h1:hover {
-  color: white;
-} */
-
 h2 {
   font-family: 'Shadows Into Light', cursive;
+  color: white;
   font-size: 2vmax;
 }
 
@@ -19,11 +16,11 @@ ul {
   color: white;
   list-style-type: none;
   text-decoration: none;
-  font-size: 1vmax;
+  font-size: 1.5vmax;
 }
 
 li {
-  padding: 10px;
+  padding: 15px;
   display: inline;
 }
 
@@ -32,7 +29,6 @@ li:hover {
 }
 
 a {
-  /* padding: 10px; */
   color: white;
   text-decoration: none;
 }
@@ -41,30 +37,28 @@ a:hover {
   color: black;
 }
 
-body {
-  background-image: url(../blogcontent/background\ 4.avif);
+html {
+  background: url(../blogcontent/background\ 4.avif) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
 }
 
 .heading {
-  text-align: center;
   margin-bottom: 10px;
 }
 
-.photo > img {
-  width: 20vmax;
-  max-width: 100%;
-  height: auto;
-  border: 1px solid white;
-  border-radius: 50%;
+.concepts {
+  margin-bottom: 40px !important;
+  text-align: center;
+  border: 2px solid white;
+  margin: auto;
+  align-items: center;
+  width: 80vw;
+  border-radius: 50px;
 }
-
-/* img:hover {
-  border-color: white;
-} */
 
 .photo {
   text-align: center;
@@ -77,26 +71,62 @@ body {
   align-items: center;
   width: 80vw;
   text-align: center;
-  /* background-color: white; */
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50px;
+  margin-bottom: 40px;
 }
 
 .aboutMe {
-  margin-top: 30px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  border: 2px solid white;
   margin: auto;
-  width: 70vw;
-  background-color: white;
-  color: black;
+  align-items: center;
+  width: 80vw;
+  border-radius: 50px;
+  color: white;
+  margin-bottom: 40px;
   font-size: 1vmax;
-  border: 1px solid white;
-  border-radius: 20px;
 }
 
 img {
   width: 10vmax;
   max-width: 100%;
   height: auto;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.photo > img {
+  width: 20vmax;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 0;
+}
+
+p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media all and (max-width: 1200px) {
+  li {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 768px) {
+  img {
+    width: 20vmax;
+  }
+}
+
+@media all and (max-width: 325px) {
+  h1 {
+    font-size: 95vmin !important;
+  }
 }
