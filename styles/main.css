@@ -56,6 +56,7 @@ h2 {
   width: 80vw;
   border-radius: 50px;
   box-shadow: 5px 5px;
+  height: 500px;
 }
 
 /* TAGS */
@@ -76,21 +77,27 @@ ul {
 }
 
 li {
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: inline;
 }
 
-li:hover {
+nav < li:hover {
   color: black;
 }
 
 a {
   color: white;
   text-decoration: none;
+  font-size: 1vmax;
+  font-family: 'Shadows Into Light', cursive;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 a:hover {
   color: black;
+  /* text-shadow: 2px 2px white; */
 }
 
 /* NAVBAR */
