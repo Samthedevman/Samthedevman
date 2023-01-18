@@ -1,5 +1,4 @@
 /* HEADINGS */
-
 h1 {
   color: white;
   font-size: 5vmax;
@@ -11,12 +10,6 @@ h1 {
 
 .heading {
   margin-bottom: 10px;
-}
-
-#boxModelImage {
-  max-width: 50%;
-  height: auto;
-  border: 5px solid black;
 }
 
 .blogPostHeading {
@@ -39,7 +32,6 @@ h2 {
 .post {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
-  /* border: 2px solid white; */
   border-bottom: 2px solid white;
   border-left: 2px solid white;
   border-right: 2px solid white;
@@ -51,6 +43,7 @@ h2 {
   font-size: 1vmax;
   box-shadow: 5px 5px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .concepts {
@@ -59,7 +52,6 @@ h2 {
   border-bottom: 2px solid white;
   border-left: 2px solid white;
   border-right: 2px solid white;
-  /* border: 2px solid white; */
   margin: auto;
   align-items: center;
   width: 80vw;
@@ -81,7 +73,6 @@ p {
 ul {
   color: white;
   list-style-type: none;
-  /* text-decoration: none; */
   font-size: 1.5vmax;
 }
 
@@ -97,7 +88,6 @@ nav < li:hover {
 
 a {
   color: white;
-  /* text-decoration: none; */
   font-size: 1vmax;
   font-family: 'Shadows Into Light', cursive;
   padding-left: 30px;
@@ -106,7 +96,6 @@ a {
 
 a:hover {
   color: black;
-  /* text-shadow: 2px 2px white; */
 }
 
 /* NAVBAR */
@@ -125,6 +114,12 @@ a:hover {
 }
 
 /* IMAGES */
+
+#boxModelImage {
+  max-width: 50%;
+  height: auto;
+  border: 5px solid black;
+}
 
 html {
   background: url(../blogcontent/background\ 4.avif) no-repeat center center
