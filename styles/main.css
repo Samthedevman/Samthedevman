@@ -76,7 +76,7 @@ p {
 ul {
   color: white;
   list-style-type: none;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 1.5vmax;
 }
 
@@ -92,7 +92,7 @@ nav < li:hover {
 
 a {
   color: white;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 1vmax;
   font-family: 'Shadows Into Light', cursive;
   padding-left: 30px;
@@ -134,8 +134,9 @@ html {
   max-width: 40% !important;
   height: auto !important;
   border: 5px solid black;
-  margin-right: 20px;
-  margin-left: 20px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  margin: 0vw 2vw 0vw 2vw;
 }
 
 #exampleImages {
