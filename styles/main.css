@@ -13,6 +13,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+#boxModelImage {
+  max-width: 50%;
+  height: auto;
+  border: 5px solid black;
+}
+
 .blogPostHeading {
   text-align: center;
 }
@@ -124,6 +130,19 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#exampleImages > img {
+  max-width: 40% !important;
+  height: auto !important;
+  border: 5px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#exampleImages {
+  display: flex;
+  justify-content: center;
 }
 
 .photo2 > img {
