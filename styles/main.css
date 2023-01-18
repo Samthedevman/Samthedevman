@@ -2,7 +2,7 @@
 h1 {
   color: white;
   font-size: 5vmax;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Caveat', cursive;
   text-align: center;
   margin: auto;
   text-shadow: 5px 5px black;
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Lora', serif;
   color: white;
   font-size: 2vmax;
   padding-left: 10px;
@@ -30,7 +30,8 @@ h2 {
 }
 
 .post {
-  font-family: 'Shadows Into Light', cursive;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: 'Lora', serif;
   text-align: center;
   border-bottom: 2px solid white;
   border-left: 2px solid white;
@@ -43,10 +44,11 @@ h2 {
   font-size: 1vmax;
   box-shadow: 5px 5px;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .concepts {
+  background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 40px !important;
   text-align: center;
   border-bottom: 2px solid white;
@@ -65,7 +67,7 @@ h2 {
 p {
   font-size: 1vmax;
   color: white;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Lora', serif;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -89,7 +91,7 @@ nav < li:hover {
 a {
   color: white;
   font-size: 1vmax;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Lora', serif;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -101,7 +103,8 @@ a:hover {
 /* NAVBAR */
 
 .nav {
-  font-family: 'Shadows Into Light', cursive;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: 'Lora', serif;
   margin: auto;
   align-items: center;
   width: 80vw;
@@ -121,7 +124,7 @@ a:hover {
   border: 5px solid black;
 }
 
-html {
+body {
   background: url(../blogcontent/background\ 4.avif) no-repeat center center
     fixed;
   -webkit-background-size: cover;
