@@ -44,13 +44,11 @@ h2 {
   align-items: center;
   width: 80vw;
   border-radius: 50px;
-  /* color: white; */
+
   margin-bottom: 40px;
   font-size: 1vmax;
   box-shadow: 5px 5px;
-  /* margin-left: 30px; */
-  /* padding-left: 30px;
-  padding-right: 30px; */
+  padding-bottom: 20px;
 }
 
 .concepts {
@@ -175,6 +173,9 @@ html {
   li {
     display: flex;
   }
+  .concepts > ul {
+    text-align: left;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -182,10 +183,25 @@ html {
     width: 20vmax;
     box-shadow: 5px 5px;
   }
+  p {
+    font-size: 1.5vmax;
+  }
+  a {
+    font-size: 1.5vmax;
+  }
+  .concepts > a {
+    text-align: left;
+  }
 }
 
 @media all and (max-width: 320px) {
   p {
     font-size: 1.5vmax;
+  }
+  .concepts > ul {
+    text-align: left;
+  }
+  .nav > ul {
+    text-align: left;
   }
 }
