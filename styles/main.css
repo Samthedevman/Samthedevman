@@ -1,7 +1,7 @@
 /* HEADINGS */
 h1 {
   color: white;
-  font-size: 5vmax;
+  font-size: 5vw;
   font-family: 'Caveat', cursive;
   text-align: center;
   margin: auto;
@@ -84,6 +84,7 @@ ul {
   color: white;
   list-style-type: none;
   font-size: 1.5vmax;
+  padding-inline-start: 0px;
 }
 
 li {
@@ -160,8 +161,8 @@ body {
   justify-content: center;
 }
 
-.photo2 > img {
-  width: 10vmax;
+.photoBurt > img {
+  width: 10vw;
   border: 2px solid white;
   border-radius: 50%;
   margin-bottom: 30px;
@@ -169,8 +170,8 @@ body {
   box-shadow: 2.5px 2.5px;
 }
 
-.photo > img {
-  width: 20vmax;
+.photoSam > img {
+  width: 20vw;
   max-width: 100%;
   height: auto;
   border: 2px solid white;
@@ -179,7 +180,7 @@ body {
   box-shadow: 5px 5px;
 }
 
-.photo {
+.photoSam {
   text-align: center;
   margin-top: 30px;
 }
@@ -189,42 +190,27 @@ body {
 @media all and (max-width: 1200px) {
   li {
     display: flex;
+    justify-content: center;
   }
   .concepts > ul {
-    text-align: left;
+    text-align: center;
   }
   p {
     font-size: 1.5vmax;
   }
   a {
     font-size: 1.5vmax;
+  }
+  h1 {
+    font-size: 7vw;
   }
 }
 
 @media all and (max-width: 768px) {
-  .photo2 > img {
-    width: 20vmax;
+  .photoBurt > img {
+    width: 20vw;
     box-shadow: 5px 5px;
   }
-  p {
-    font-size: 1.5vmax;
-  }
-  a {
-    font-size: 1.5vmax;
-  }
-  .concepts > a {
-    text-align: left;
-  }
 }
-
 @media all and (max-width: 320px) {
-  p {
-    font-size: 1.5vmax;
-  }
-  .concepts > ul {
-    text-align: left;
-  }
-  .nav > ul {
-    text-align: left;
-  }
 }
