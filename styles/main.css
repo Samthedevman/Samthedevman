@@ -41,7 +41,7 @@ h2 {
   margin: auto;
   align-items: center;
   width: 80vw;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-bottom: 40px;
   font-size: 1vmax;
   box-shadow: 5px 5px;
@@ -50,7 +50,7 @@ h2 {
   /* padding-top: 1px; */
 }
 
-.concepts {
+.blogPanel {
   padding-top: 5px;
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 40px !important;
@@ -61,12 +61,12 @@ h2 {
   margin: auto;
   align-items: center;
   width: 80vw;
-  border-radius: 50px;
+  border-radius: 20px;
   box-shadow: 5px 5px;
   height: 500px;
 }
 
-.concepts > ul {
+.blogPanel > ul {
   padding-left: 0px;
 }
 
@@ -121,7 +121,7 @@ a:hover {
   width: 80vw;
   text-align: center;
   border: 2px solid white;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-bottom: 40px;
   box-shadow: 5px 5px;
   text-shadow: 2px 2px black;
@@ -192,7 +192,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  .concepts > ul {
+  .blogPanel > ul {
     text-align: center;
   }
   p {
