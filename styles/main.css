@@ -213,4 +213,7 @@ body {
   }
 }
 @media all and (max-width: 320px) {
+  h1 {
+    font-size: 10vw;
+  }
 }
