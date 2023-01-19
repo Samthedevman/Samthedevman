@@ -46,24 +46,20 @@ h2 {
   font-size: 1vmax;
   box-shadow: 5px 5px;
   padding-bottom: 20px;
-
-  /* padding-top: 1px; */
 }
 
 .blogPanel {
   padding-top: 5px;
   background-color: rgba(0, 0, 0, 0.1);
-  margin-bottom: 40px !important;
   text-align: center;
   border-bottom: 2px solid white;
-  /* border-left: 2px solid white; */
   border-right: 2px solid white;
   margin: auto;
   align-items: center;
   width: 80vw;
   border-radius: 20px;
   box-shadow: 5px 5px;
-  height: 500px;
+  height: 1000px;
 }
 
 .blogPanel > ul {
@@ -93,10 +89,6 @@ li {
   padding-right: 15px;
 }
 
-nav < li:hover {
-  color: black;
-}
-
 a {
   color: white;
   font-size: 1vmax;
@@ -117,7 +109,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   font-family: 'Lora', serif;
   margin: auto;
-  align-items: center;
+  /* align-items: center; */
   width: 80vw;
   text-align: center;
   border: 2px solid white;
@@ -203,6 +195,16 @@ body {
   }
   h1 {
     font-size: 7vw;
+  }
+}
+
+@media all and (max-width: 600px) {
+  li {
+    display: flex;
+    justify-content: center;
+  }
+  .blogPanel > ul {
+    text-align: center;
   }
 }
 
