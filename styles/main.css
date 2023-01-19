@@ -34,7 +34,7 @@ h2 {
   font-family: 'Lora', serif;
   text-align: center;
   border-bottom: 2px solid white;
-  border-left: 2px solid white;
+  /* border-left: 2px solid white; */
   border-right: 2px solid white;
   margin: auto;
   align-items: center;
@@ -52,7 +52,7 @@ h2 {
   margin-bottom: 40px !important;
   text-align: center;
   border-bottom: 2px solid white;
-  border-left: 2px solid white;
+  /* border-left: 2px solid white; */
   border-right: 2px solid white;
   margin: auto;
   align-items: center;
@@ -79,9 +79,9 @@ ul {
 }
 
 li {
+  display: inline;
   padding-left: 15px;
   padding-right: 15px;
-  display: inline;
 }
 
 nav < li:hover {
