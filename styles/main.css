@@ -31,6 +31,7 @@ h2 {
   padding-left: 10px;
   padding-right: 10px;
   text-shadow: 2px 2px black;
+  text-align: center;
 }
 
 .post {
@@ -44,14 +45,60 @@ h2 {
   padding: 0.5vw 0vw 0.5vw 0vw;
 }
 
+.blogPostContainer {
+  display: flex;
+  border-radius: 10px;
+  
+  border: 4px solid black;
+  box-shadow: 5px 5px lightblue;
+  margin: 1vw 1vw 1vw 1vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 300px;
+}
+/* .blogPostContainer > a {
+  color: black;
+} */
+
+#valuesCard > a {
+  color: lawngreen;
+}
+
+#learningCard > a {
+  color: black;
+}
+
+#borderCard > a {
+  color: white;
+}
+
+#learningCard {
+  background-image: url(../blogcontent/learningcard.avif);
+    background-position: center;
+    background-size: cover;
+  }
+
+#borderCard {
+background-image: url(../blogcontent/htmlcssbordersandpaddingexample.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
 .blogPanel {
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 5px;
   background-color: rgba(0, 0, 0, 0.7);
-  text-align: center;
+  justify-content: center;
   margin: auto;
   align-items: center;
   width: 80vw;
-  height: 1000px;
+  height: 100%;
+  padding-bottom: 5px;
 }
 
 /* TAGS */
@@ -79,9 +126,10 @@ li {
 
 a {
   color: white;
-  font-size: 1vw;
+  font-size: 20px;
   padding-left: 1vw;
   padding-right: 1vw;
+  text-decoration: none;
   /* font-family: 'Righteous', cursive; */
   font-family: 'Lora', serif;
 }
@@ -167,7 +215,6 @@ body {
   height: auto;
   margin-left: 3vw;
   margin-right: 3vw;
-
 }
 
 .photoBurt > img {
@@ -198,9 +245,9 @@ body {
   p {
     font-size: 1.5vw;
   }
-  a {
+  /* a {
     font-size: 1.5vw;
-  }
+  } */
   h1 {
     font-size: 7vw;
   }
