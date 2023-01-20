@@ -113,7 +113,6 @@ a:hover {
 #boxModelImage {
   max-width: 50%;
   height: auto;
-  border: 5px solid black;
 }
 
 body {
@@ -125,7 +124,7 @@ body {
   background-size: cover;
 }
 
-#exampleImages > img {
+/* #exampleImages > img {
   max-width: 40% !important;
   height: auto !important;
   border: 5px solid black;
@@ -135,6 +134,40 @@ body {
 #exampleImages {
   display: flex;
   justify-content: center;
+} */
+
+.htmlCssExample1vw > img {
+  width: 12vw;
+  height: auto;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.htmlCssExample3vw > img {
+  width: 12vw;
+  height: auto;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.htmlCssExample3vwBorders > img {
+  border: 2px solid red;
+  width: 12vw;
+  height: auto;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.htmlCssExample3vwBorders > .htmlCssPaddingExample {
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+.htmlCssExampleCode > img {
+  width: 15vw;
+  height: auto;
+  margin-left: 3vw;
+  margin-right: 3vw;
+
 }
 
 .photoBurt > img {

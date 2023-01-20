@@ -44,55 +44,86 @@
       </p>
       <img id="boxModelImage" src="../blogcontent/boxmodel.jpeg" />
       <p>
-        The margin represents the space surrounding the box and other elements.
-        The border is the edge of the box. Borders can be decorated however you
-        like, invisible even, in this picutre its a thick green border. The
-        padding represents the space between the border and the content. And
-        lastly the content, this is what we are styling.
+        The margin represents the space surrounding the element outside of the
+        border (in this example, content represents the element we are styling).
+        Borders are borders around an element, in this example it is a green
+        border. The padding represents the space inbetween the border and the
+        element we are styling. At first the difference between margin and
+        padding can be confusing, especially when there is no border. They are
+        both used to make spaces between things like the border and other
+        elements. Margin, padding and borders can be added to all four sides of
+        an element or just one, the power is in the developers hands. Lets run
+        through some examples.
       </p>
-      <p>
-        At first the difference between margin and padding can be confusing,
-        especially when there is no border. They are both used to make
-        gaps/spaces between things like content or other elements. Margin,
-        padding and borders can be added to all four sides of an element or just
-        one, the power is in your hands. Lets run through some examples. See
-        this text your reading right now. See how the text does not go all the
-        way to the edge of the white border. This is because padding has been
-        added to p tag element, the element which contains the very text your
-        reading right now. Make sense? The code has added padding on the outside
-        of the content/element but still inside the border. Lets see what
-        happens when I comment out the padding code from the p tag(commenting
-        out code ensures that the code is not run), have a look at the images
-        below.
-      </p>
-      <div id="exampleImages">
-        <img src="../blogcontent/Screenshot 2023-01-18 at 12.28.25 PM.png" />
-        <img src="../blogcontent/no padding.png" />
+      <div class="htmlCssExample1vw">
+        <img src="../blogcontent/nftexample.avif" />
+        <img src="../blogcontent/nftexample.avif" />
       </div>
       <p>
-        As you can see in the left image, the code for padding is commented out
-        and on the right image you can see, without padding, the text goes all
-        the way to the border. I added nice thick black borders to these images,
-        just to seperate that sunset background a bit. Now lets talk margin. Im
-        going to give you with another example, one within this page. Lets look
-        at the last two example pictures. Notice the gap between them. If we
-        wanted to increase this gap we would do so by adjusting the margin on
-        the images because remember it is the space outside of the borders. But
-        not just all the margin, we only want to adjust the margin on the left
-        and right of the images. Have a look at the space between the images.
-        The below image is what it would look like if we adjusted the margin to
-        100px(px is code for pixels).
+        Here are two pictures of the same nft above, they are both 1 element
+        each. They are spaced apart from each other using margin. The margin in
+        this example is 1vw (vw stands for viewport width, 1vw = 1% of a screens
+        width, vw margins help keep websites responsive, no matter what device
+        someone may be viewing this site on). Lets see what it would look like
+        if we tripled this margin.
       </p>
-      <div id="exampleImages">
-        <img src="../blogcontent/marginx5.png" />
+
+      <div class="htmlCssExample3vw">
+        <img src="../blogcontent/nftexample.avif" />
+        <img src="../blogcontent/nftexample.avif" />
       </div>
       <p>
-        Its a much bigger gap isn't it. The gap in this example is now 200px.
-        This is because we have added 100px margin on the left and right of each
-        image. Margins are invisible barriers that developers create and use to
-        seperate elements from one another. Hopefully now you have a better
-        understanding of the difference between these 3 styling tools.
+        As you can tell above its a much bigger gap between the images. Lets
+        look at the code.
       </p>
+      <div class="htmlCssExampleCode">
+        <img src="../blogcontent/htmlcsscodeexample.png" />
+      </div>
+      <p>
+        This snapshot of code was taken from the css file that styles this page.
+        The top block of code represents the 1vw margin applied to the left and
+        right of the image and the bottom block of code represents the vw margin
+        after it has been tripled. So you may be thinking the gap between the
+        first two images is 1vw but its actually 2vw this is because we have
+        applied margin to the left and right of each image(element), with the
+        latter example images(elements) gap being 6vw.
+      </p>
+      <p>
+        Alright lets look at an example of padding. I have added red borders to
+        the images below just to make it a bit easier to see the difference.
+      </p>
+      <div class="htmlCssExample3vwBorders">
+        <img src="../blogcontent/nftexample.avif" />
+        <img
+          class="htmlCssPaddingExample"
+          src="../blogcontent/nftexample.avif"
+        />
+        <p>
+          The image(element) above on the right has had a padding
+          of 1vw applied to all four sides. The image(element) is still the same
+          size, but now with padding, its pushed the boarders 1vw out on each
+          side. Lets look at the code for both the css and html this time.
+        </p>
+        <div class="htmlCssExampleCode">
+          <img src="../blogcontent/htmlcssbordersandpaddingexample.png" />
+          <img src="../blogcontent/htmlcsshtmlexample.png" />
+        </div>
+        <p>
+          Look at the css in the example image above on the left. In the
+          top block of code, we can see it has the border applied to it, the
+          border being 1px solid red. The block of code on the bottom represents
+          the padding being applied to the right image(element) from the
+          previous example. Now lets look at the code in the image on the right.
+          This is html. We are using the html to our advantage here to only
+          style the right image with padding. This is done so using the class
+          name .htmlCssPaddingExample. <!--Class names are ways assign css to
+          elements, and looking at our html example, the bottom image code has
+          this class applied to it. The code in the css is styling  -->
+        </p>
+        <p>
+          We could go more indepth about class names and html structure, but this post is just about sheding some light on the difference between margin, border and padding.
+        </p>
+      </div>
     </div>
   </body>
 </html>
