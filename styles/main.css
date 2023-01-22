@@ -48,7 +48,7 @@ h2 {
   text-align: center;
   margin: auto;
   width: 80vw;
-  margin-top: 87px;
+  margin-top: 87px!important;
   margin-bottom: 40px;
   font-size: 1vmax;
   padding: 0.5vw 0vw 0.5vw 0vw;
@@ -299,7 +299,12 @@ body {
   h3 {
     font-size: 15px;
   }
-  
+}
+
+@media all and (max-width: 400px) {
+  .nav > ul {
+    display: block;
+  }
 }
 
 @media all and (max-width: 320px) {
