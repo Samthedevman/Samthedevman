@@ -27,8 +27,7 @@ h4 {
   text-align:center;
   margin-top: 1px;
   font-size: 15px;
-  color: black;
-  background-color: white;
+  color: white
 }
 
 h2 {
@@ -59,7 +58,7 @@ h2 {
   border-radius: 1px;
   transition: 0.5s;
   /* box-shadow: 2px 2px black; */
-  margin: 2vw 2vw 2vw 2vw;
+  margin: 2vw 2vw 0vw 2vw;
   /* box-shadow: 2px 2px white; */
   text-align:end;
   align-items:flex-end;
@@ -71,25 +70,16 @@ h2 {
 .blogPostContainer:hover {
   transform: scale(1.2);
 }
-/* .blogPostContainer > a {
-  color: black;
-} */
 
 h6 {
   font-size: 20px;
   font-family: 'Lora', serif;
 }
 
-#valuesCard > h6 {
-  color: white !important;
-}
-
-#learningCard > h6 {
-  color: white !important;
-}
-
-#borderCard > h6 {
-  color: white !important;
+#eqCard {
+  background-image: url(../blogcontent/eqcard.avif);
+  background-position:center;
+  background-size: cover;
 }
 
 #learningCard {
@@ -113,11 +103,13 @@ h6 {
 .blogPanel {
   display: flex;
   flex-wrap: wrap;
-  /* padding: 2vw 0vw; */
+ 
   background-color: rgba(0, 0, 0, 0.7);
   justify-content: left;
-  /* padding: 2vw 0vw; */
+  padding-left: 2vw;
+  padding-right: 2vw;
   margin: auto;
+
   align-items: center;
   width: 80vw;
   height: 100%;
