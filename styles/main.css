@@ -15,7 +15,7 @@ h1 {
 
 h3 {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   /* font-family: 'Righteous', cursive; */
   font-family: 'Lora', serif;
   text-align: center;
@@ -26,6 +26,7 @@ h3 {
 h4 {
   text-align:center;
   margin-top: 1px;
+  margin-bottom: 2vw;
   font-size: 15px;
   color: white
 }
@@ -34,7 +35,7 @@ h2 {
   /* font-family: 'Righteous', cursive; */
   font-family: 'Lora', serif;
   color: white;
-  font-size: 30px;
+  font-size: 35px;
   padding-left: 10px;
   padding-right: 10px;
   text-shadow: 2px 2px black;
@@ -106,8 +107,7 @@ h6 {
  
   background-color: rgba(0, 0, 0, 0.7);
   justify-content: left;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  
   margin: auto;
 
   align-items: center;
@@ -118,7 +118,7 @@ h6 {
 /* TAGS */
 
 p {
-  font-size: 1vmax;
+  font-size: 20px;
   color: white;
   font-family: 'Lora', serif;
   padding-left: 2vw;
@@ -134,6 +134,17 @@ ul {
     list-style-type: none;
   font-size: 1.5vmax;
   padding-inline-start: 0px;
+}
+
+.post > ul {
+  display:inline-block;
+  font-size: 20px;
+}
+
+.post > ul > li {
+  list-style-position: inside;
+  list-style-type:disc;
+  color: white;
 }
 
 li {
@@ -288,9 +299,9 @@ body {
   /* h2 {
     font-size: 15px;
   } */
-  h3 {
+  /* h3 {
     font-size: 15px;
-  }
+  } */
 }
 
 @media all and (max-width: 400px) {
