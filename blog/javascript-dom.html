@@ -34,33 +34,45 @@
         An analogy to describe JavaScript and its relationship to HTML and CSS.
       </h3>
       <p>
-       
+       For this im going to use the classic building analogy and not because everyone else does, but because I think personally most people come to think of this analogy when they first encounter all 3 of these languages, I know I did. Most websites are made up of Html, Css and Javascript. Lets first talk about each one. Html stands for Hypertext Markup Language, think of html as the building structure, how many bedrooms, how many floors etc. It is the structure of a website, or in this case the building. Css stands for Cascading Style Sheet. Style, buildings can have style right. What fancy coloured bricks does the building have, does it even have bricks, maybe its all just glass...see where im going with this. Css is how we style an html page, give it its nice wallpapers, fonts etc. Now Javascript, how does it relate to Html and Css. Javascript controls the functionality of a website, or in this case the building. Like turning the lights on in the building so you can see at night. Clicking a button that then changes the website to dark mode, thats all controlled by Javascript. Javascript has the ability to interact with Html and Css and manipulate there code all from a click of a button. 
       </p>
       <h3>
-        Control flow and loops
+        Control flow and Loops
       </h3>
       <p>
-       
+        Control flow is the order in which code executes. This is true for Javascript, Html and Css, hence the reason Css stands for cascading style sheets, as the code trickles down and is executed from top to bottom. There are lines of code that can change the flow, statements like functions, conditionals and loops are just some examples. 
+
+        Conditionals are statements which are executed only if the outcome reads true, otherwise the next line of code is run. For example. You wake up and go to make a coffee in the morning, do you like milk in your coffee and is it available? If yes, then make a coffee with milk. But let’s say there isn’t any milk. Are there alternatives. This is how a condition statement reads back. If there is no milk, but you still like coffee even without milk, then make a coffee without milk and if that isn’t the case and you absolutely cannot have coffee without milk, then maybe the last line of code for this statement in this analogy would be to go and get some or don’t have a coffee at all. Statements like conditionals are determined like this, if the first result does not equal true, it flows down until the result can be finalised.
+        </p><p>
+        Loops are a bit different. They loop over code over and over as long as the result is true, and keep looping until there is nothing left to loop over or if the condition becomes false. Say you have a nice full water bottle for you to drink from throughout the day, this would be the start of the loop. You continually take sips from this water throughout the day because there is still water in the bottle available and you’re a thirsty human who likes to make sure you stay hydrated. It’s only when the bottle is full depleted of water, that you cannot take any more sips from it that the loop will finally come to an end. 
       </p>
       <h3>
         What the DOM is and an example of how you might interact with it
       </h3>
       <p>
-       
+        The DOM stands for document object model. It is an object model and programming interface. For programming languages like Javascript, to exist and function, there must be some sort of structure for it to manipulate, the DOM is that structure and it allows us to then use Javascript to add/remove and change elements and many more cool things. The DOM structure of an html page can be laid out like a tree.</p>
+        <img id="boxModelImage" src="../blogcontent/DOM.jpeg">
+        <p>This tree like structure is what javascript plays with. Lets go over an example of how Javascript can manipulate the dom.
+
       </p>
-       
-      </p>
-      <h3>The difference between accessing data from arrays and objects.</h3>
-      <p>
-        
-      </p>
-      <h3>
+       <img id="boxModelImage" src="../blogcontent/DOM HTML EXAMPLE.png">
+       <img id="boxModelImage" src="../blogcontent/THE DOM EXAMPLE 2.png">
+       <p>The code in the above image is for a simple heading in an HTML page saying Hello World as you can see in the image beside it, aswell as a button called Change to Hello User. This button is connected to the heading through Javascript with its ability to manipulate the DOM and is ready to manipulate the inner text of the heading with a simple click of the button. Lets look at the Javascript code below and what the heading will look like after we click the button.</p>
+       <img id="boxModelImage" src="../blogcontent/DOM JS EXAMPLE.png">
+       <img id="boxModelImage" src="../blogcontent/THE DOM EXAMPLE 1.png">
+       <p>What is this Javascript code doing exactly. First its grabbing the button in html by its id(refer html code in the previous example) and storing it as a variable called button. The javascript in the next line of code below has an event listener attached to the variable button. The javascript is now listening for a click of the button to then initiate a function that will change the inner text of the heading. After a user clicks the button, the heading text is changed from Hello World to Hello User as you can see in the picture beside it. This is just a simple example how how Javascript can interact with the DOM. It adds user interaction to a page through such coding. This leads us to the next question below</p>
+       <h3>
         What functions are and why they are helpful.
 
       </h3>
       <p>
         
       </p>
+       <h3>The difference between accessing data from arrays and objects.</h3>
+      <p>
+        
+      </p>
+      
     </div>
   </body>
 </html>
