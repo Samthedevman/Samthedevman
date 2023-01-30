@@ -82,6 +82,12 @@ h6 {
   background-position: center;
   background-size: cover;
 }
+#mindsetCard {
+  background-image: url(../blogcontent/mindsetcard.avif);
+  background-position: center;
+  background-size: cover;
+}
+
 
 #eqCard {
   background-image: url(../blogcontent/eqcard.avif);
