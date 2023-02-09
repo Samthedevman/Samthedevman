@@ -94,6 +94,12 @@ h6 {
   background-size: cover;
 }
 
+#foundationsCard {
+  background-image: url(../blogcontent/foundationscard.avif);
+  background-position: center;
+  background-size: cover;
+}
+
 #problemSolvingCard {
   background-image: url(../blogcontent/problemsolvingcard.avif);
   background-position: center;
@@ -181,11 +187,10 @@ a {
   font-family: 'Lora', serif;
 }
 
-a:hover {
-  transition: 0.0s;
-  color: greenyellow;
+ul > a:hover {
+  transition: 0s;
+  color: aquamarine;
 }
-
 /* NAVBAR */
 
 .nav {
